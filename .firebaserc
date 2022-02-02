@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angularfirestore-d8e80": {
+      "hosting": {
+        "AngularFire": [
+          "angularfirestore-d8e80"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angularfirestore-d8e80"
+  }
+}

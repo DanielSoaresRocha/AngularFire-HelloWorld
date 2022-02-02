@@ -1,27 +1,72 @@
-# AngularFire
+<p align="center">
+  <img src="/screenshots/angular_fire.png" width="200px" float="center"/>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+<h1 align="center">AngularFire - Hello World!</h1>
 
-## Development server
+## Qual o objetivo deste projeto? 🤔
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+O objetivo era construir uma aplicação utilizando o [AngularFire](https://github.com/angular/angularfire), a biblioteca oficial para aplicações Angular que facilita a comunicação/conexão/manipulação de dados com o banco de dados NoSQL do [Firebase](https://firebase.google.com/?hl=pt-br)<br /> <br />
 
-## Code scaffolding
+<div align="center">
+  <br>
+    <img src="screenshots/app_angular.png" alt="Screenshot1" width="500px" heigth='500px'>
+  <br>
+</div>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## O que foi desenvolvido? 🚀
 
-## Build
+Foi criado um "Hello World", uma aplicação Angular que recupera e cadastra "itens" diretamente no banco Firebase utilizando a biblioteca AngularFire. Assim que o item é cadastrado ele também é atualizado com uma coluna "id" preenchido de forma randômica que o banco Firebase gera após a criação do documento.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Demonstração 🎥
 
-## Running unit tests
+![git to demonstration](screenshots/angularfire_example.gif)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tecnologias usadas 📚
 
-## Running end-to-end tests
+- Angular 12
+- AngularFire
+- FireBase
+- SASS
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Desenvolvimento 🎬
 
-## Further help
+Clonando o repositório:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+git clone https://github.com/DanielSoaresRocha/AngularFire-HelloWorld.git
+```
+
+Navegando até a pasta do repositório:
+
+```
+cd AngularFire
+```
+
+Baixando as dependências
+
+```
+npm i
+```
+
+ou
+
+```
+yarn
+```
+
+Rodando o projeto
+
+execute `npm run start` ou `yarn start` no terminal
+
+## License 📝
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
+
+## Autor
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/DanielSoaresRocha"><img src="https://avatars0.githubusercontent.com/u/43214747?s=400&u=a267d113c5469b84bf87d202cdb7129330e4c865&v=4" width="100px;" alt="Daniel Soares"/><br /><sub><b>Daniel Soares</b></sub></a><br /><a href="https://github.com/DanielSoaresRocha/ESIG-challenge/commits?author=DanielSoaresRocha" title="Code">💻</a></td>
+  <tr>
+</table>
